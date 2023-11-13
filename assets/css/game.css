@@ -1,0 +1,47 @@
+.ttl{
+    text-align: center;
+}
+.quess {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+#word-container {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#answer-input {
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#check-button {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #16499f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#result-message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: red;
+}

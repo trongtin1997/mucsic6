@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game mini</title>
+    <link rel="icon" href="./assets/img/music-icon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2 class="ttl">Vua tiếng việt</h2>
+    <div class="quess">
+        <span class="question" id="question1">Từ khoá</span>
+        <p id="word-container"></p>
+        <input type="text" id="answer-input" placeholder="Nhập đáp án">
+        <button id="check-button" onclick="checkAnswer()">Kiểm Tra</button>
+        <div id="result-message"></div>
+    </div>
+    <script src="./assets/js/game.js"></script>
+
+</body>
+
+</html>
